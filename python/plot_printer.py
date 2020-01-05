@@ -30,7 +30,7 @@ if __name__ == '__main__':
     pyplot.plot(semi_expensive_table, values_table, label='high')
     pyplot.plot(expensive_table, values_table, label='very high')
     pyplot.legend(loc='upper left')
-    pyplot.ylim([0, 2])
+    pyplot.ylim([0, 1.6])
     pyplot.xlabel(x_legend)
     pyplot.ylabel('Degrees of membership [SF]')
     pyplot.title(sys.argv[22])
