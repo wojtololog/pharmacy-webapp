@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PharmacyWebApp.Models.PharmacyDBContext">
+    <Position X="10.25" Y="2.25" Width="2" />
+    <InheritanceLine Type="System.Data.Entity.DbContext" FixedToPoint="true">
+      <Path>
+        <Point X="11.25" Y="1.812" />
+        <Point X="11.25" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EEEgAAEAARAAAJQAAAAAAABAAAAAAACAAAAAQgAACAE=</HashCode>
+      <FileName>Models\Context\PharmacyDBContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.TableRecord" Collapsed="true">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Context\TableRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Account" Collapsed="true">
+    <Position X="1.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEIAACAAAAAIAoAAAAAAAAAAAAACAAIQgAAAAAg=</HashCode>
+      <FileName>Models\Database\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.AgeCategory" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Database\AgeCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.AplicationMethod" Collapsed="true">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAACAA=</HashCode>
+      <FileName>Models\Database\AplicationMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.BodyPart" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAACAA=</HashCode>
+      <FileName>Models\Database\BodyPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.City" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAFAACAAAAAAIAAQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\Database\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Component" Collapsed="true">
+    <Position X="1.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\Database\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Concentration" Collapsed="true">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABgGAAACAA=</HashCode>
+      <FileName>Models\Database\Concentration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Form" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Database\Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Medicine" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GEIAABAAAAAAAIQAAgAAAARAACAAAAAAAACAQEEAAQA=</HashCode>
+      <FileName>Models\Database\Medicine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Order" Collapsed="true">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAAAAAAABAgAAAAAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Models\Database\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.OrderedMedicine" Collapsed="true">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAQAAABAAAAAAAAAAAABAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Models\Database\OrderedMedicine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Pharmacy" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABAWAAAAAIAIAIQAQAgAACAAAAAAIAgAAAAAM=</HashCode>
+      <FileName>Models\Database\Pharmacy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Price" Collapsed="true">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAEAAAgBAAAgAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\Database\Price.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Problem" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Database\Problem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Province" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAEAACAAAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Database\Province.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Size" Collapsed="true">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEQAAAAAAIAAAAAAAAAAAABAAAAAgAAAACAA=</HashCode>
+      <FileName>Models\Database\Size.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.WorkingHour" Collapsed="true">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEQAAABAAAAABAgABAAAAAQAAAAKIABAAAAAAESE=</HashCode>
+      <FileName>Models\Database\WorkingHour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Data.Entity.DbContext" Collapsed="true">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,200 @@
+﻿@model PharmacyWebApp.Models.MedicineViewModel
+@{
+    ViewBag.Title = "AddMedicine";
+}
+<link href="~/Content/css/select2.css" rel="stylesheet" />
+<link href="~/Scripts/Chosen/chosen.css" rel="stylesheet" />
+<script src="~/Scripts/Chosen/chosen.jquery.js"></script>
+<br /><br />
+
+@if (Model.Messege != null)
+{
+    <div style="border:solid 1px green">
+        @Model.Messege
+    </div>
+}
+
+@using (Html.BeginForm("AddMedicine", "Medicine", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+@Html.AntiForgeryToken()
+
+    <div class="row" style="text-align: center;">
+        <div class="col-md-4" style="text-align: center">
+
+            <div class="row" style="text-align: center">
+                <h2>Podstawowe informacje</h2>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Medicine.Name, new { @class = "col-md-5 control-label" })
+                    <div class="col-md-6">
+                        @Html.TextBoxFor(m => m.Medicine.Name, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Medicine.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.SelectedForm, new { @class = "col-md-5 control-label" })
+                    <div class="col-md-6">
+                        @Html.DropDownListFor(m => m.SelectedForm, new SelectList(Model.Forms, "FormId", "Name", Model.SelectedForm), new { @class = "form-control chosen-select" })
+                        @Html.ValidationMessageFor(m => m.SelectedForm, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.SelectedAplicationMethod, new { @class = "col-md-5 control-label" })
+                    <div class="col-md-6">
+                        @Html.DropDownListFor(m => m.SelectedAplicationMethod, new SelectList(Model.AplicationMethods, "AplicationMethodId", "Name", Model.SelectedAplicationMethod), new { @class = "form-control chosen-select" })
+                        @Html.ValidationMessageFor(m => m.SelectedAplicationMethod, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Medicine.PregnancyUseable, new { @class = "col-md-5 control-label" })
+                    <div class="col-md-6">
+                        @Html.CheckBoxFor(m => m.Medicine.PregnancyUseable, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Medicine.PregnancyUseable, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Medicine.AvailableWithoutPrescription, new { @class = "col-md-5 control-label" })
+                    <div class="col-md-6">
+                        @Html.CheckBoxFor(m => m.Medicine.AvailableWithoutPrescription, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Medicine.AvailableWithoutPrescription, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row" style="text-align: center">
+                <h2>@Html.LabelFor(m => m.Problems)</h2>
+                @Html.DropDownListFor(m => m.SelectedProblems, new SelectList(Model.Problems, "ProblemId", "Name"), new { @class = "form-control chosen-select", @multiple = true, @data_placeholder = "Wybierz", id = "ProblemsSelect" })
+                <script type='text/javascript'>
+                    var dataarray = @Html.Raw(Json.Encode(Model.SelectedProblems));
+                    $("#ProblemsSelect").val(dataarray);
+                    $("#ProblemsSelect").multiselect("refresh");
+
+                </script>
+            </div>
+
+            <br /><br />
+
+            <div class="row" style="text-align: center">
+                <h2>@Html.LabelFor(m => m.AgeCategories)</h2>
+                @Html.DropDownListFor(m => m.SelectedAgeCategories, new SelectList(Model.AgeCategories, "AgeCategoryId", "Name"), new { @class = "form-control chosen-select", @multiple = true, @data_placeholder = "Wybierz", id = "AgeSelect" })
+                <script type='text/javascript'>
+                    var dataarray = @Html.Raw(Json.Encode(Model.SelectedAgeCategories));
+                    $("#AgeSelect").val(dataarray);
+                    $("#AgeSelect").multiselect("refresh");
+                </script>
+            </div>
+
+            <br /><br />
+
+            <div class="row" style="text-align: center">
+                <h2>@Html.LabelFor(m => m.BodyParts)</h2>
+                @Html.DropDownListFor(m => m.SelectedBodyParts, new SelectList(Model.BodyParts, "BodyPartId", "Name"), new { @class = "form-control chosen-select", @multiple = true, @data_placeholder = "Wybierz", id = "BodyPartSelect" })
+                <script type='text/javascript'>
+                    var dataarray = @Html.Raw(Json.Encode(Model.BodyParts));
+                    $("#BodyPartSelect").val(dataarray);
+                    $("#BodyPartSelect").multiselect("refresh");
+                </script>
+            </div>
+        </div>
+
+        <div class="col-md-1" style="text-align: center">
+        </div>
+
+        <div class="col-md-6" style="text-align: center">
+
+
+
+            <div class="row" style="text-align: center">
+                <h2>@Html.LabelFor(m => m.Medicine.Recommendations)</h2>
+                @Html.TextAreaFor(m => m.Medicine.Recommendations, 8, 48, new { @class = "form-control", style = "width: 100%; max-width: 100%; resize: none" })
+                @Html.ValidationMessageFor(m => m.Medicine.Recommendations, "", new { @class = "text-danger" })
+            </div>
+            <br />
+
+            <div class="row" style="text-align: center">
+                <h2>@Html.LabelFor(m => m.Components)</h2>
+                @for (int i = -1; i < Model.SelectedComponents.Count; ++i)
+                {
+                    string val = "Usuń" + i;
+                    <div class="row" style="text-align: center">
+
+                        <div class="col-md-4" style="text-align: center">
+                            @if (i < 0)
+                            {
+                                @Html.LabelFor(m => m.Components, new { @class = "col-md-4 control-label" })
+                            }
+                            else
+                            {
+                                string str = Model.SelectedComponents[i];
+                                @Html.DropDownListFor(m => m.SelectedComponents[i], new SelectList(Model.Components, "ComponentId", "Name", Model.SelectedComponents[i]), new { @class = "form-control chosen-select", @name = "SelectedComponent" + i })
+                            }
+                        </div>
+
+                        <div class="col-md-3" style="text-align: center">
+                            @if (i < 0)
+                            {
+                                @Html.LabelFor(m => m.Concentrations, new { @class = "col-md-3 control-label" })
+                            }
+                            else
+                            {
+                                @Html.TextBoxFor(m => m.Concentrations[i], new { @class = "form-control input-sm", type = "decimal_input" })
+                            }
+                        </div>
+
+                        <div class="col-md-3" style="text-align: center">
+                            @if (i < 0)
+                            {
+                                @Html.LabelFor(m => m.Units, new { @class = "col-md-3 control-label" })
+                            }
+                            else
+                            {
+                                @Html.DropDownListFor(m => m.SelectedUnits[i], new SelectList(Model.Units, "Value", "Text", Model.SelectedUnits[i]), new { @class = "form-control chosen-select" })
+                            }
+                        </div>
+
+                        <div class="col-md-1" style="text-align: center">
+                            @if (i >= 0)
+                            {
+                                <button type="submit" name="command" value='@val' class="btn-danger">Usuń</button>
+                            }
+                        </div>
+                    </div>
+                }
+
+                <br /><br />
+                <div class="col-md-13" style="text-align: left">
+                    <input type="submit" name="command" value="Dodaj nowy składnik" class="btn btn-primary" />
+                </div>
+                <br /><br />
+            </div>
+        </div>
+
+    </div>
+    <br /><br />
+
+    <div class="row" style="text-align: center">
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.PharmacyKey, new { @class = "col-md-5 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.PharmacyKey, new { @class = "form-control input-sm", style="" })
+                @Html.ValidationMessageFor(m => m.PharmacyKey, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-12">
+                <input type="submit" value="Dodaj lek do bazy" name="command" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+<script>
+    $('.chosen-select').chosen();
+</script>

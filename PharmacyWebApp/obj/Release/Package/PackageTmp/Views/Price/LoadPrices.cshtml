@@ -1,0 +1,117 @@
+﻿@model PharmacyWebApp.Models.PriceViewModel
+@{
+    ViewBag.Title = "LoadPrices";
+}
+
+<link href="~/Content/css/select2.css" rel="stylesheet" />
+<link href="~/Scripts/Chosen/chosen.css" rel="stylesheet" />
+<script src="~/Scripts/Chosen/chosen.jquery.js"></script>
+<br /><br />
+
+@Html.ValidationSummary()
+
+@if (ViewBag.Message != null)
+{
+    <div style="border:solid 1px green">
+        @ViewBag.Message
+    </div>
+}
+
+@using (Html.BeginForm("LoadPrices", "Price", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row" style="text-align: center">
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.PharmacyKey, new { @class = "col-md-5 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.PharmacyKey, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.PharmacyKey, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-12">
+                <input type="submit" value="Wczytaj" name="command" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@*@if (Model.PharmacyId >= 0)
+    {
+        using (Html.BeginForm("SetPrices", "Price", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="row">
+                @if (Model.Prices != null)
+                {
+                    for (int i = -1; i < Model.Prices.Count; ++i)
+                    {
+                        string val = "Usuń" + i;
+                        <div class="row" style="text-align: center">
+
+                            <div class="col-md-4" style="text-align: center">
+                                @if (i < 0)
+                                {
+                                    @Html.LabelFor(m => m.Medicines, new { @class = "col-md-4 control-label" })
+                                }
+                                else
+                                {
+                                    @Html.DropDownListFor(m => m.SelectedMedicines[i], new SelectList(Model.Medicines, "MedicineId", "Name", Model.SelectedMedicines[i]), new { @class = "form-control chosen-select", @name = "SelectedMedicine" + i, @id = "Medicine" })
+                                }
+                            </div>
+
+                            <div class="col-md-4" style="text-align: center">
+                                @if (i < 0)
+                                {
+                                    @Html.LabelFor(m => m.Prices[i].Size, new { @class = "col-md-4 control-label" })
+                                }
+                                else
+                                {
+                                    @Html.DropDownListFor(m => m.Prices[i].SizeId, new SelectList(Model.Medicines.First(x => x.MedicineId == int.Parse(Model.SelectedMedicines[i])).Sizes, "SizeId", "Value", Model.Prices[i].SizeId), new { @class = "form-control chosen-select", @name = "SelectedSize" + i, @id = "Size" })
+                                }
+                            </div>
+
+                            <div class="col-md-3" style="text-align: center">
+                                @if (i < 0)
+                                {
+                                    @Html.LabelFor(m => m.Prices[i].Value, new { @class = "col-md-3 control-label" })
+                                }
+                                else
+                                {
+                                    @Html.TextBoxFor(m => m.Prices[i].Value, new { @class = "form-control " })
+                                }
+                            </div>
+
+                            <div class="col-md-1" style="text-align: center">
+                                @if (i >= 0)
+                                {
+                                    <button type="submit" name="command" value='@val' class="btn-danger">Usuń</button>
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+
+                <br /><br />
+                <div class="col-md-13" style="text-align: left">
+                    <input type="submit" name="command" value="Dodaj" class="btn btn-default" />
+                </div>
+                <br /><br />
+
+            </div>
+            <div class="row" style="text-align: center">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="submit" value="Zapisz" name="command" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        }
+    }*@
+
+<script>
+    $('.chosen-select').chosen();
+</script>

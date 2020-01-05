@@ -1,0 +1,235 @@
+﻿@model PharmacyWebApp.Models.RegisterPharmacyViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<link href="~/Scripts/Chosen/chosen.css" rel="stylesheet" />
+<script src="~/Scripts/Chosen/chosen.jquery.js"></script>
+
+@using (Html.BeginForm("RegisterPharmacy", "Pharmacy", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    <div class="col-md-12" style="text-align: center">
+        <div class="row" style="text-align: center">
+            <div class="col-md-6" style="text-align: center">
+                <h2>Adres</h2>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.Name, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Pharmacy.Name, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.NIP, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Pharmacy.NIP, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.NIP, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.PostCode, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Pharmacy.PostCode, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.PostCode, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.City.Province, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7" style="align-items: center">
+                        @Html.DropDownListFor(m => m.SelectedProvinceId, new SelectList(Model.Provinces, "Value", "Text"), htmlAttributes: new { @class = "form-control chosen-select", @id = "Province" })
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.City, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7" style="text-align: center">
+                        @Html.DropDownListFor(m => m.SelectedCityId, new SelectList(Model.Cities, "Value", "Text"), htmlAttributes: new { @class = "form-control chosen-select", @id = "City" })
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.Street, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Pharmacy.Street, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.Street, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.HousingNumber, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Pharmacy.HousingNumber, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.HousingNumber, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.Longitude, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Pharmacy.Longitude, new { @class = "form-control", type = "decimal_input" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.Longitude, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.Latitude, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Pharmacy.Latitude, new { @class = "form-control", type = "decimal_input" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.Latitude, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="text-align: center">
+                <h2>Dane kontaktowe</h2>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.Email, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-6">
+                        @Html.TextBoxFor(m => m.Pharmacy.Email, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.PhoneNumber, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-6">
+                        @Html.TextBoxFor(m => m.Pharmacy.PhoneNumber, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Pharmacy.PhoneNumber, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <h2>Godziny pracy</h2>
+
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.MondayFrom, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.MondayTo, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.WorkingHour.MondayFrom, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.MondayFrom, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-1">-</div>
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.MondayTo, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.TuesdayFrom, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.TuesdayTo, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.WorkingHour.TuesdayFrom, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.TuesdayFrom, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-1">-</div>
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.TuesdayTo, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.WednesdayTo, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.WednesdayFrom, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.WorkingHour.WednesdayFrom, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.WednesdayFrom, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-1">-</div>
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.WednesdayTo, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.ThursdayTo, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.ThursdayFrom, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.WorkingHour.ThursdayFrom, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.ThursdayFrom, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-1">-</div>
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.ThursdayTo, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.FridayFrom, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.FridayTo, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.WorkingHour.FridayFrom, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.FridayFrom, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-1">-</div>
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.FridayTo, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.SaturdayFrom, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.SaturdayTo, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.WorkingHour.SaturdayFrom, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.SaturdayFrom, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-1">-</div>
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.SaturdayTo, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.SundayFrom, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.Pharmacy.WorkingHour.SundayTo, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Pharmacy.WorkingHour.SundayFrom, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.SundayFrom, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-1">-</div>
+                    <div class="col-md-2">
+                        @Html.TextBoxFor(m => m.Pharmacy.WorkingHour.SundayTo, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+            <br /><br/>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <input type="submit" value="Zarejestruj" class="btn btn-primary" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        $('.chosen-select').chosen();
+    </script>
+
+    <script type="text/javascript">
+        $('#Province').change(function () {
+            var selectedProvince = $("#Province").val();
+            var cityList = $('#City');
+            cityList.empty();
+            $.getJSON('@Url.Action("PrepareCityList")', { provinceId: selectedProvince }, function (cities) {
+                if (cities != null && !jQuery.isEmptyObject(cities)) {
+                    $.each(cities, function (index, city) {
+                        cityList.append('<option value="' + city.Value + '">' + city.Text + '</option>');
+                        cityList.trigger("chosen:updated");
+                    });
+                };
+            });
+        });
+    </script>
+}

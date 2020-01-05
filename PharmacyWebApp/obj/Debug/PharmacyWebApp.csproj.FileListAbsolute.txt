@@ -1,0 +1,348 @@
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\ApplicationInsights.config
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\csc.exe
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\vbc.exe
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\VBCSCompiler.exe
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.dll.config
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.pdb
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Antlr3.Runtime.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.SqlServer.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.DependencyCollector.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Web.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.WindowsServer.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.ApplicationInsights.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Google.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Newtonsoft.Json.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Owin.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Helpers.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Mvc.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Optimization.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Razor.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Deployment.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Razor.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\WebGrease.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.DependencyCollector.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Web.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.WindowsServer.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.ApplicationInsights.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Helpers.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Mvc.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Optimization.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Razor.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Deployment.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Razor.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Antlr3.Runtime.pdb
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Newtonsoft.Json.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.SqlServer.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Google.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.pdb
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.initial.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.csproj.GenerateResource.Cache
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update001.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update002.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update003.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update004.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update005.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update006.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update007.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update008.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update009.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update010.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update011.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update012.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update013.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update014.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.Mvc.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.Mvc.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update015.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update016.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update017.resources
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Swashbuckle.Core.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Net.Http.Formatting.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.WebHost.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\WebActivatorEx.dll
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Net.Http.Formatting.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.WebHost.xml
+D:\Moje\polibuda\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.csprojResolveAssemblyReference.cache
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\ApplicationInsights.config
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\csc.exe
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\vbc.exe
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\VBCSCompiler.exe
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.dll.config
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.pdb
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Antlr3.Runtime.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.SqlServer.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.DependencyCollector.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Web.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.WindowsServer.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.ApplicationInsights.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Google.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Newtonsoft.Json.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Owin.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.Mvc.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Swashbuckle.Core.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Net.Http.Formatting.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Helpers.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.WebHost.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Mvc.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Optimization.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Razor.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Deployment.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Razor.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\WebActivatorEx.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\WebGrease.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.DependencyCollector.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Web.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.WindowsServer.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.ApplicationInsights.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\PagedList.Mvc.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Net.Http.Formatting.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.WebHost.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Helpers.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Mvc.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Optimization.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Razor.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Deployment.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Razor.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Antlr3.Runtime.pdb
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Newtonsoft.Json.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.SqlServer.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Google.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.csprojResolveAssemblyReference.cache
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.initial.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update001.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update002.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update003.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update004.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update005.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update006.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update007.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update008.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update009.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update010.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update011.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update012.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update013.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update014.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update015.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update016.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update017.resources
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.csproj.GenerateResource.Cache
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.dll
+D:\Moje\polibuda\polibuda inz\Source\Repos\ML95\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.pdb
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\ApplicationInsights.config
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\csc.exe
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\System.Collections.Immutable.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\vbc.exe
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\VBCSCompiler.exe
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\roslyn\VBCSCompiler.exe.config
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.dll.config
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\PharmacyWebApp.pdb
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Antlr3.Runtime.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.SqlServer.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.DependencyCollector.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Web.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.WindowsServer.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.ApplicationInsights.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Google.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Web.Infrastructure.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Newtonsoft.Json.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Owin.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\PagedList.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\PagedList.Mvc.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Swashbuckle.Core.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.IdentityModel.Tokens.Jwt.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Net.Http.Formatting.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Helpers.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.WebHost.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Mvc.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Optimization.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Razor.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Deployment.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Razor.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\WebActivatorEx.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\WebGrease.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.DependencyCollector.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.Web.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AI.WindowsServer.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.ApplicationInsights.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\PagedList.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\PagedList.Mvc.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.IdentityModel.Tokens.Jwt.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Net.Http.Formatting.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Http.WebHost.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Helpers.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Mvc.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Optimization.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.Razor.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Deployment.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\System.Web.WebPages.Razor.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Antlr3.Runtime.pdb
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Newtonsoft.Json.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\EntityFramework.SqlServer.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Google.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.csprojResolveAssemblyReference.cache
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.initial.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update001.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update002.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update003.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update004.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update005.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update006.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update007.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update008.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update009.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update010.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update011.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update012.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update013.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update014.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update015.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update016.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.Migrations.update017.resources
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.csproj.GenerateResource.Cache
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.dll
+f:\studia\semestr9\domanProjekt\PharmacyWebApp\PharmacyWebApp\obj\Debug\PharmacyWebApp.pdb

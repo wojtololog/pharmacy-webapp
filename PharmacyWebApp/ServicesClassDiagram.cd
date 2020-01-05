@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PharmacyWebApp.Models.AttributesCoefficient">
+    <Position X="0.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQABAABAAAAAwAAAAICAAAAAAEAAAIAAAAAAAAEAACA=</HashCode>
+      <FileName>Models\AttributesCoefficient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Membership">
+    <Position X="0.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Models\Membership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.SearchResult">
+    <Position X="2.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAIAAAAAgAIAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Models\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Models.Section">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Section.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Services.DatabaseService">
+    <Position X="9.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACBQmQAEAUAQAAAAAAICCIAAACACIQIAAEAFAIAAAAE=</HashCode>
+      <FileName>Services\DatabaseService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Services.KeyGeneratorService">
+    <Position X="7.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\KeyGeneratorService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Services.MailService">
+    <Position X="7.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\MailService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Services.ScoringService">
+    <Position X="5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CgAEEAABIEAAABCAAgAQAAAAAGAAAAEABAAAAAAMAAA=</HashCode>
+      <FileName>Services\ScoringService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

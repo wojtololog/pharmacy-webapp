@@ -1,0 +1,96 @@
+﻿@model PharmacyWebApp.Models.DisplayMedicinesViewModel
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "DisplayMedicines";
+}
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<link href="~/Scripts/Chosen/chosen.css" rel="stylesheet" />
+<script src="~/Scripts/Chosen/chosen.jquery.js"></script>
+<br /><br />
+
+@Html.ValidationSummary()
+
+@using (Html.BeginForm("DisplayMedicines", "Medicine", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        @Html.HiddenFor(m => m.SortAttribute)
+        @Html.HiddenFor(m => m.SortOrderAsc)
+        <div class="form-group">
+            @Html.LabelFor(m => m.SearchText, new { @class = "col-md-1 control-label" })
+            <div class="col-md-3">
+                @Html.TextBoxFor(m => m.SearchText, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-active table-hover " >
+        <thead>
+            <tr>
+                <th class="col-md-2" style="text-align: center; padding-left: 0px; padding-right: 0px; vertical-align: central;">
+                    <input type="submit" value="Obraz" name="command" class="btn btn-primary" style="width: 100%; padding: 3px; font-size: medium; border-radius: 0">
+                </th>
+                <th class="col-md-2" style="text-align: center; padding-left: 0px; padding-right: 0px; vertical-align: central;">
+                    <input type="submit" value="Nazwa" name="command" class="btn btn-primary" style="width: 100%; padding: 3px; font-size: medium; border-radius: 0">
+                </th>
+                <th class="col-md-2" style="text-align: center; padding-left: 0px; padding-right: 0px; vertical-align: central;">
+                    <input type="submit" value="Postać" name="command" class="btn btn-primary" style="width: 100%; padding: 3px; font-size: medium; border-radius: 0">
+                </th>
+                <th class="col-md-2" style="text-align: center; padding-left: 0px; padding-right: 0px; vertical-align: central;">
+                    <input type="submit" value="Sposób aplikacji" name="command" class="btn btn-primary" style="width: 100%; padding: 3px; font-size: medium; border-radius: 0">
+                </th>
+                <th class="col-md-2" style="text-align: center; padding-left: 0px; padding-right: 0px; vertical-align: central;">
+                    <input type="submit" value="Wielkość" name="command" class="btn btn-primary" style="width: 100%; padding: 3px; font-size: medium; border-radius: 0">
+                </th>
+                <th class="col-md-2" style="text-align: center; padding-left: 0px; padding-right: 0px; vertical-align: central;">
+                    <input type="submit" value="Średnia cena" name="command" class="btn btn-primary" style="width: 100%; padding: 3px; font-size: medium; border-radius: 0">
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var size in Model.Sizes)
+            {
+                string avg = null;
+                <tr onclick="location.href = '@(Url.Action("ShowMedicineInfo", "Medicine", new { sizeId = size.SizeId }))'">
+                    <td class="col-md-2" style="text-align: center; padding: 0px;  vertical-align: central;border-top: 1px solid lightblue;border-bottom: 1px solid lightblue;">
+                        <img src="data:image;base64,@System.Convert.ToBase64String(size.Image)" style="max-height: 60%; max-width: 60%; padding: 0px; align-content: center;" />
+                    </td>
+                    <td class="col-md-2" style="text-align: center; padding: 0px; vertical-align: central;border-top: 1px solid lightblue;border-bottom: 1px solid lightblue;">
+                        <h3>@size.Medicine.Name</h3>
+                    </td>
+                    <td class="col-md-2" style="text-align: center; padding: 0px; vertical-align: central;border-top: 1px solid lightblue;border-bottom: 1px solid lightblue;">
+                        <h3>@size.Medicine.Form.Name</h3>
+                    </td>
+                    <td class="col-md-2" style="text-align: center; padding: 0px; vertical-align: central;border-top: 1px solid lightblue;border-bottom: 1px solid lightblue;">
+                        <h3>@size.Medicine.AplicationMethod.Name</h3>
+                    </td>
+                    <td class="col-md-2" style="text-align: center; padding: 0px; vertical-align: central;border-top: 1px solid lightblue;border-bottom: 1px solid lightblue;">
+                        <h3>@(size.Value + size.Unit)</h3>
+                    </td>
+                    <td class="col-md-2" style="text-align: center; padding: 0px; vertical-align: central;border-top: 1px solid lightblue;border-bottom: 1px solid lightblue;">
+                        @if (size.Prices.Count > 0)
+                        {
+                            double x = 0;
+                            foreach (var p in size.Prices)
+                            {
+                                x += double.Parse(p.Value);
+                            }
+                            avg = (x / size.Prices.Count).ToString("#.##");
+                        }
+                        <h3>@((avg + "zł" ?? "BRAK") )</h3>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+Page @(Model.Sizes.PageCount < Model.Sizes.PageNumber ? 0 : Model.Sizes.PageNumber) of @Model.Sizes.PageCount
+
+@Html.PagedListPager(Model.Sizes, page => Url.Action("DisplayMedicines", new { page }))
+
+<script>
+    $('.chosen-select').chosen();
+</script>

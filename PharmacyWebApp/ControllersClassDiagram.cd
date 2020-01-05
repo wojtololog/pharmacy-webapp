@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PharmacyWebApp.Controllers.BaseController">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Controllers\BaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Controllers.MedicineController">
+    <Position X="7" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAAAAAAYAAAAAAAACAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Controllers\MedicineController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Controllers.PharmacyController">
+    <Position X="7" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAQAAAAAIAAIAAAAAABAAA=</HashCode>
+      <FileName>Controllers\PharmacyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Controllers.PriceController">
+    <Position X="5.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAABAAAAAEAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controllers\PriceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PharmacyWebApp.Controllers.SearchController">
+    <Position X="1.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\SearchController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.Controller" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
