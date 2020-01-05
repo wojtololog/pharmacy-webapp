@@ -1,0 +1,120 @@
+﻿@model PharmacyWebApp.Models.PriceViewModel
+@{
+    ViewBag.Title = "SetPrices";
+}
+
+<link href="~/Content/css/select2.css" rel="stylesheet" />
+<link href="~/Scripts/Chosen/chosen.css" rel="stylesheet" />
+<script src="~/Scripts/Chosen/chosen.jquery.js"></script>
+<br /><br />
+
+@Html.ValidationSummary()
+
+@if (Model.Message != null)
+{
+    <div style="border:solid 1px green">
+        @Model.Message
+    </div>
+}
+
+@using (Html.BeginForm("SetPrices", "Price", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.PharmacyId);
+    <div class="row">
+
+        @for (int i = -1; i < Model.Prices.Count; ++i)
+        {
+            string val = "Usuń" + i;
+            <div class="row" style="text-align: center">
+                <div class="col-md-4" style="text-align: center">
+                    @if (i < 0)
+                    {
+                        @Html.LabelFor(m => m.Medicines)
+                    }
+                    else
+                    {
+                        @Html.DropDownListFor(m => m.SelectedMedicines[i], new SelectList(Model.Medicines, "MedicineId", "Name", Model.SelectedMedicines[i]), htmlAttributes: new { @class = "form-control chosen-select", @id = "Medicine" + i, @onchange = "onChangex(" + i + ")" })
+                    }
+                </div>
+
+                <div class="col-md-4" style="text-align: center">
+                    @if (i < 0)
+                    {
+                        @Html.LabelFor(m => m.SizesLists)
+                    }
+                    else
+                    {
+                        @Html.HiddenFor(m => m.Prices[i].PriceId)
+                        @Html.DropDownListFor(m => m.Prices[i].SizeId, new SelectList(Model.SizesLists[i], "Value", "Text", Model.Prices[i].SizeId), htmlAttributes: new { @class = "form-control chosen-select", @id = "Size" + i })
+                    }
+                </div>
+
+                <div class="col-md-3" style="text-align: center">
+                    @if (i < 0)
+                    {
+                        @Html.LabelFor(m => m.Prices)
+                    }
+                    else
+                    {
+                        @Html.TextBoxFor(m => m.Prices[i].Value, new { @class = "form-control input-sm" })
+                        @Html.ValidationMessageFor(m => m.Prices[i].Value, "", new { @class = "text-danger" })
+                    }
+                </div>
+
+                <div class="col-md-1" style="text-align: center">
+                    @if (i >= 0)
+                    {
+                        <button type="submit" name="command" value='@val' class="btn-danger">Usuń</button>
+                    }
+                </div>
+            </div>
+
+        }
+
+        <br /><br />
+        <div class="col-md-1" style="text-align: right">
+            <input type="submit" name="command" value="Dodaj" class="btn btn-primary" />
+        </div>
+        <div class="col-md-1" style="text-align: center">
+            @Html.TextBoxFor(m => m.NumberOfNewRecords, new { @class = "form-control", @type = "number" })
+        </div>
+        <div class="col-md-9" style="text-align: left center">
+            <h4>nowych pozycji.</h4>
+        </div>
+        <br /><br />
+
+    </div>
+    <div class="row" style="text-align: center">
+        <div class="form-group">
+            <div class="col-md-12">
+                <input type="submit" value="Zapisz" name="command" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $('.chosen-select').chosen();
+    </script>
+
+    <script type='text/javascript'>
+        function onChangex(i) {
+            var selectedMedicine = $("#Medicine" + i).val();
+
+            var sizeList = $("#Size" + i);
+            sizeList.empty();
+
+            $.getJSON('@Url.Action("PrepareSizeList")', { medicineId: selectedMedicine }, function (sizes) {
+                if (sizes != null && !jQuery.isEmptyObject(sizes)) {
+                    $.each(sizes, function (index, size) {
+                        sizeList.append('<option value="' + size.Value + '">' + size.Text + '</option>');
+                        sizeList.trigger("chosen:updated");
+                    });
+                };
+            });
+        }
+    </script>
+}
